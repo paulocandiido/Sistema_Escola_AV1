@@ -1,10 +1,10 @@
- 📊 Sistema de Gestão Escolar
+  Sistema de Gestão Escolar
 
 Este projeto é um sistema para gestão de uma escola, permitindo o controle de alunos, professores, cursos, disciplinas e matrículas.  
 O objetivo é organizar as informações acadêmicas, facilitando o gerenciamento de cursos e o acompanhamento dos alunos.
 
 
- 🚀 Tecnologias Utilizadas
+  Tecnologias Utilizadas
 
 - Java 17+
 - Spring Boot (Web, Data JPA)
@@ -13,37 +13,42 @@ O objetivo é organizar as informações acadêmicas, facilitando o gerenciament
 - Maven
 - Arquitetura RESTful
 
-🧠 Funcionalidades Principais
+ Funcionalidades Principais
 
-👨‍🎓 Alunos
+  Alunos
+  
 - Cadastro de alunos  
 - Consulta de dados  
 - Associação com matrículas  
 
- 👨‍🏫 Professores
+  Professores
+  
 - Cadastro de professores  
 - Definição de especialidade  
 - Associação com disciplinas  
 
- 📚 Cursos
+  Cursos
+  
 - Cadastro de cursos  
 - Definição de carga horária  
 - Classificação por:
   - Nível (Técnico, Graduação, Pós-graduação)
   - Tipo (Presencial, EAD, Híbrido)
 
-📖 Disciplinas
+  Disciplinas
+  
 - Cadastro de disciplinas  
 - Associação com:
   - Curso  
   - Professor  
 
- 📝 Matrículas
+  Matrículas
+  
 - Realização de matrícula de alunos em cursos  
 - Registro de data da matrícula  
 - Controle do vínculo aluno-curso  
 
- 🧱 Modelagem do Domínio
+ Modelagem do Domínio
 
  Entidades:
 - Aluno
@@ -56,7 +61,7 @@ O objetivo é organizar as informações acadêmicas, facilitando o gerenciament
 - NivelCurso
 - TipoCurso
 
-🌐 API REST – Endpoints Principais
+ API REST – Endpoints Principais
 
  Alunos
 GET    /alunos  
@@ -89,7 +94,7 @@ POST   /matriculas
 PUT    /matriculas/{id}  
 DELETE /matriculas/{id}  
 
- ⚙️ Regras de Negócio
+  Regras de Negócio
 
 - Aluno pode se matricular em um curso  
 - Curso possui várias disciplinas  
@@ -97,7 +102,7 @@ DELETE /matriculas/{id}
 - Disciplina pertence a um curso  
 - Matrícula vincula aluno a um curso  
 
- 🛠️ Como Executar
+  Como Executar
 
 Requisitos:
 - Java 17+
@@ -110,14 +115,14 @@ mvn spring-boot:run
 http://localhost:8080  
 http://localhost:8080/h2-console  
 
-📌 Status do Projeto
+ Status do Projeto
 
-- ✔️ Back-end funcional  
-- ✔️ CRUD completo  
-- ✔️ API REST funcionando  
-- ✔️ Banco H2 configurado  
-- ⬜ Front-end não implementado  
+-  Back-end funcional  
+-  CRUD completo  
+-  API REST funcionando  
+-  Banco H2 configurado  
+-  Front-end não implementado  
 
-## 🤝 Contribuições
+## Contribuições
 
 Sugestões e melhorias são bem-vindas!
